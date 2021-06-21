@@ -1,0 +1,242 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img/fone.jpg');
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* header */
+.top {
+    background: url('img/15.jpg');
+    opacity: .8;
+    height: 150px;
+}
+.top_block{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.top_text {
+    background: rgba(0, 0, 0, 0.7);
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+/* header */
+
+/* nav */
+nav {
+    background: #fafa98;
+    height: 66px;
+}
+.nav_items {
+    display: flex;
+    justify-content: space-between;
+}
+.nav_items img {
+    height: 65px;
+    width: 55px;
+    padding-left: 10%;
+}
+.nav_item {
+    font-size: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.nav_item_1 {
+    padding-left: 10%;
+}
+.nav_item_2 {
+    padding-right: 20%;
+}
+/* nav */
+
+/* about */
+.about_main {
+    display: flex;
+}
+.about_text {
+    padding: 20px;
+    width: 70%;
+}
+.about_topP {
+    font-size: 35px;
+}
+.about_allText {
+    font-size: 22px;
+}
+.form_block {
+    border: 1px solid black;
+    width: 72%;
+    height: 29%;
+    padding: 20px;
+    font-size: 20px;
+}
+.p_underForm {
+    font-size: 20px;
+}
+/* about */
+
+/* otzivi */
+.otziv_zag {
+    text-align: center;
+    background: #fafa98;
+    height: 40px;
+    padding-top: 20px;
+}
+.otziv_block {
+    display: flex;
+    justify-content: center;
+}
+.otziv_item {
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+}
+.otziv_item img {
+    width: 180px;
+    height: 150px;
+    border-radius: 10%;
+}
+/* otzivi */
+
+/* sales */
+.sales_block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sales_item {
+    width: 500px;
+    padding: 40px;
+    font-size: 20px;
+}
+.sales_item img {
+    height: 200px;
+    width: 200px;
+}
+/* sales */
+
+/* subSales */
+.subSales {
+    background: #fafa98;
+    text-align: center;
+    height: 70px;
+}
+.subSales_item {
+    padding-top: 1px;
+    font-size: 20px;
+}
+/* subSales */
+
+/* bron_hz */
+.bron_hz_block {
+    display: flex;
+    justify-content: center;
+}
+.bron_hz_item {
+    margin: 30px;
+    
+    height: 50px;
+    width: 100px;
+}
+/* bron_hz */
+
+/* footer */
+footer {
+    background: url('img/15.jpg');
+    opacity: .8;
+    height: 150px;
+    position: absolute;
+    width: 100%;
+}
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafa98;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.footer_item_1 {
+    padding-left: 20%;
+}
+.footer_item_2 {
+    padding-right: 20%;
+}
+/* footer */
+
+/* search */
+.search_block {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+.altaiskiy {
+    padding-right: 50px;
+    text-align: center;
+}
+.krasnoyarskiy {
+    text-align: center;
+}
+.altai_border {
+    border: 1px solid black;
+    padding: 15px;
+}
+/* search */
+
+/* location */
+.location_topText {
+    text-align: center;
+    font-size: 26px;
+}
+.location_block1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.location_item {
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.location_item img {
+    width: 350px;
+}
+.location_item_1 {
+    margin-right: 40px;
+}
+.location_block2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.location_button {
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* location */
+
+/* bron */
+.dannie_bron {
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
+}
+.dop_bron {
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
+}
+.coment_bron {
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
+}
+/* bron */
